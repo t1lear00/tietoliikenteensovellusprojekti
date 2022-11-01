@@ -2,7 +2,7 @@
 Tietoliikenteen  syksyn projekti 2022
 
 ## About this project
-    Goal of this project is to create machinelearning algorythm that can identify which direction is  arduino microcontroller facing (up,left,down or right) based on data from GY-61 sensor
+Goal of this project is to create machinelearning algorythm that can identify which direction is  arduino microcontroller facing (up,left,down or right) based on data from GY-61 sensor
 
 ## Project goals
 
