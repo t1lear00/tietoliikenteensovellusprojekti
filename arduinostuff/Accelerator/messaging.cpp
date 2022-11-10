@@ -2,7 +2,7 @@
 #include "accelerator.h"
 #include <arduino.h>
 
-Accelerator AObject;
+
 
 Messaging::Messaging()
 {
@@ -21,7 +21,7 @@ Messaging::~Messaging()
 }
 void Messaging::createMessage(Measurement m)
 {
-   m = AObject.getMeasurement();
+  
    messageLength = 6;
    short x = m.x;
    short y = m.y;
