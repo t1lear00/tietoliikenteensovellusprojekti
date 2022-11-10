@@ -17,6 +17,7 @@ public:
   ~Accelerator();
   void makeMeasurement();
   Measurement getMeasurement();
+  void printMeasurement();
 
 private:
   Measurement m;
