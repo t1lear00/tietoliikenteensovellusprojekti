@@ -14,8 +14,7 @@ int x = 0;
 int y = 0;
 int z = 0;
 int numberOfMeasurements = 0;
-Accelerator Aobject;
-Messaging Mobject;
+
 
 void setup() {
   // put your setup code here, to run once:
@@ -33,8 +32,8 @@ void setup() {
 }
 
 void loop() {
-
-   
+Accelerator Aobject;
+Messaging Mobject;
 
  int  nom = 0;
  while(nom <= 0)
