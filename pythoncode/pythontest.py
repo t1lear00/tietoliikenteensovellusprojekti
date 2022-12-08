@@ -4,9 +4,11 @@ import matplotlib.pyplot as plt
 import sklearn
 from mpl_toolkits.mplot3d import Axes3D
 
-numberofrows = 40
-te = np.loadtxt('puttydata.log')
-ar = np.array(te).reshape(40,3)
+numberofrows = 185
+#df = pd.read_csv('C:\\GITHUB\\tietoliikenteensovellusprojekti\\sqldata.csv')
+#print(df)
+te = np.loadtxt('filtereddata.txt')
+ar = np.array(te).reshape(numberofrows,3)
 kp =np.random.randint(420, size= (4,3))
 counts = np.zeros(4).reshape(1,4)
 distance = np.arange(4).reshape(1,4)
@@ -19,7 +21,7 @@ print(kp, "kp alku")
 
 def getdistance(a,b):
     dis = np.linalg.norm(a-b)
-    print(dis)
+   # print(dis)
     return dis
 
 
@@ -29,7 +31,7 @@ print("distance = ",dd)
 x = 0
 lap = 1
 loop = 0
-while loop < 10:
+while loop < 200:
     for i in  range(numberofrows):
       
       #counts = np.zeros(4).reshape(1,4)
@@ -58,7 +60,7 @@ while loop < 10:
       #loop = loop +1
       
       #fixed centerpoints centerpointsum / count
-      while x == 40:
+      while x == numberofrows:
         #print(x)
         if counts[0,0] == 0:
             kp[0] =np.random.randint(420, size= (3))
@@ -95,18 +97,13 @@ while loop < 10:
          loop = loop +1
          
 
-
-      
-
-#x1 = centerpoint[::, 0]  / counts[0,0]
-#y1 = centerpoint[::, 1]  / counts[0,1]
-#z1 = centerpoint[::, 2]  / counts[0,2]
 print(counts,centerpoint)
 print(kp,"x =", x)
+np.append(ar, kp)
 #print()
 fig = plt.figure()
 ax = fig.add_subplot(1,1,1, projection='3d')
-ax.scatter3D(x1, y1, z1, color = 'red')
+ax.scatter3D(x, y, z, color = 'red')
 
 plt.title("data points")
 plt.show()

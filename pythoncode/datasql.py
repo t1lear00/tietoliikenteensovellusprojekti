@@ -8,7 +8,7 @@ db = sql.connect(
     password = 'vsdjkvwselkvwe234wv234vsdfas'
 )
 cursor = db.cursor()
-cursor.execute("SELECT * FROM rawdata WHERE groupid = '62' ")
+cursor.execute("SELECT sensorvalue_a, sensorvalue_b, sensorvalue_c  FROM rawdata WHERE groupid = '62' ") #sensorvalue_a, sensorvalue_b, sensorvalue_c
 lista = []
 for i in cursor:
     print(i)
