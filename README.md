@@ -13,4 +13,4 @@ Goal of this project is to create machinelearning algorythm that can identify wh
 - Get arduino to send data to database
 - Filter that data for machinelearning algorythm
 
-![image](https://user-images.githubusercontent.com/98742151/206970122-b60a07dc-f782-4da1-b240-3580ca8b72d9.png)
+![image](https://user-images.githubusercontent.com/98742151/206984855-234a95cc-af7e-46dc-94a4-7333bf706bf8.png)
