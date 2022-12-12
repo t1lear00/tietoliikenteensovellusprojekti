@@ -12,3 +12,5 @@ Goal of this project is to create machinelearning algorythm that can identify wh
 - Create arduino code that reads sensor data and prints it to serial monitor
 - Get arduino to send data to database
 - Filter that data for machinelearning algorythm
+
+![image](https://user-images.githubusercontent.com/98742151/206970122-b60a07dc-f782-4da1-b240-3580ca8b72d9.png)
