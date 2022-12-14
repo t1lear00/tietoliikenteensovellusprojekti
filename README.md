@@ -1,7 +1,8 @@
 # tietoliikenteensovellusprojekti
 Tietoliikenteen  syksyn projekti 2022
 
-![image](https://user-images.githubusercontent.com/98742151/199444606-58684fe5-f10a-42ca-8991-ebffcdc38dcf.png)
+![image](https://user-images.githubusercontent.com/98742151/207614136-c15e291b-7482-41f3-a40d-23a0906d8548.png)
+Project layout
 
 
 ## About this project
