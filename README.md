@@ -15,7 +15,7 @@ Goal of this project is to create machinelearning algorythm that can identify wh
 - Get arduino to send data to database
 - Filter that data for machinelearning algorythm
 - make 4-means algorythm for center datapoints
--make confusion matrix
+- make confusion matrix
 
 ![image](https://user-images.githubusercontent.com/98742151/206984855-234a95cc-af7e-46dc-94a4-7333bf706bf8.png)
 
