@@ -1,4 +1,4 @@
-# Telecommunication project
+# Telecommunication application project Autumn 2022
 
 
 ![image](https://user-images.githubusercontent.com/98742151/207614136-c15e291b-7482-41f3-a40d-23a0906d8548.png)
@@ -14,6 +14,7 @@ Goal of this project is to create machinelearning algorythm that can identify wh
 - Create arduino code that reads sensor data and prints it to serial monitor
 - Get arduino to send data to database
 - Filter that data for machinelearning algorythm
+- fetch data from database with python script
 - make 4-means algorythm for center datapoints
 - make confusion matrix
 
@@ -24,4 +25,5 @@ Test data points in 3d space
 
 ![image](https://user-images.githubusercontent.com/98742151/208923598-da88d8ae-eb93-41d6-8190-78178bb00b78.png)
 
-4-way center datapoints
+4 centerdata points optimised with test data
+
