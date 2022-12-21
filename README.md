@@ -1,5 +1,5 @@
-# tietoliikenteensovellusprojekti
-Tietoliikenteen  syksyn projekti 2022
+# Telecommunication project
+
 
 ![image](https://user-images.githubusercontent.com/98742151/207614136-c15e291b-7482-41f3-a40d-23a0906d8548.png)
 
