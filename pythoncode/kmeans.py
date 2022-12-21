@@ -111,5 +111,5 @@ for row in kp:
 #ax.scatter3D(xa, y, z)
 #ax.scatter3D(xa, y, z)
 
-plt.title("data points")
+plt.title("optimised data points")
 plt.show()

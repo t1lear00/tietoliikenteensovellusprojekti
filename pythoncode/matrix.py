@@ -1,10 +1,26 @@
-from sklearn.metrics import confusion_matrix
+
 import numpy as np
+import matplotlib.pyplot as plt
+from sklearn import metrics
+from sklearn.metrics import confusion_matrix
+from sklearn.metrics import multilabel_confusion_matrix
+
+
+
+
 
 data = np.loadtxt('matrixdata.txt')
-print(data)
+arvaus = np.loadtxt('kp.txt')
+ar = np.array(data)
+kp = np.array(arvaus)
+print(len(kp),len(ar))
 
-y_true = [2, 0, 2, 2, 0, 1]
-y_pred = [0, 0, 2, 2, 0, 2]
-confusion_matrix(y_true, y_pred)
-print(confusion_matrix)
+#actual = ar
+#predicted = ar
+
+cm = multilabel_confusion_matrix(ar, kp , labels =["up", "down", "left", "right"])
+
+cm_display = metrics.ConfusionMatrixDisplay(confusion_matrix = confusion_matrix, display_labels = [True,False])
+
+cm_display.plot()
+plt.show() 
